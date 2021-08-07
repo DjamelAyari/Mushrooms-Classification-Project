@@ -3,6 +3,8 @@ Machine-Learning Classification Project
 
 This a project where I trained a model to recognize if a mushroom is edible or not.
 
+I found this dataset on Kaggle (https://www.kaggle.com/uciml/mushroom-classification)
+
 Model is the training of the model
 
 App is the Flask application
