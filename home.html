@@ -1,0 +1,233 @@
+!<!DOCTYPE html>
+<HTML>
+    <HEAD>
+       <TITLE>MUSHROOMS EDIBILITY PREDICTION</TITLE>
+       <META NAME="viewport" CONTENT="width=device-width, INITIAL-SCALE=1.0">
+        <META CHARSET="UTF-8">
+    </HEAD>
+    <BODY>
+        <form action="\predict" method="post">
+
+            <h5 class="card-title">Cape Shape</h5>
+            <select name="cap-shape" id="cap-shape" required="required">
+                <option value=0>b</option>
+                <option value=1>c</option>
+                <option value=2>f</option>
+                <option value=3>k</option>
+                <option value=4>s</option>
+                <option value=5>x</option>
+            </select>
+
+            <h5 class="card-title">Cape Surface</h5>
+            <select name="cap-surface" id="cap-surface" required="required">
+                <option value=0>f</option>
+                <option value=1>g</option>
+                <option value=2>x</option>
+                <option value=3>y</option>
+                <option value=4>s</option>
+            </select>
+
+            <h5 class="card-title">Cape Color</h5>
+            <select name="cap-color" id="cap-color" required="required">
+                <option value=0>b</option>
+                <option value=1>c</option>
+                <option value=2>e</option>
+                <option value=3>g</option>
+                <option value=4>n</option>
+                <option value=5>p</option>
+                <option value=6>r</option>
+                <option value=7>u</option>
+                <option value=8>w</option>
+                <option value=9>y</option>
+            </select>
+
+            <h5 class="card-title">Bruises</h5>
+            <select name="bruises" id="bruises" required="required">
+                <option value=0>f</option>
+                <option value=1>t</option>            
+            </select>
+
+            <h5 class="card-title">Odor</h5>
+            <select name="odor" id="odor" required="required">
+                <option value=0>a</option>
+                <option value=1>c</option>
+                <option value=2>f</option>
+                <option value=3>l</option>
+                <option value=4>m</option>
+                <option value=5><nav></nav></option>
+                <option value=6>p</option>
+                <option value=7>s</option>
+                <option value=8>y</option>
+            </select>
+
+            <h5 class="card-title">Gill Attachment</h5>
+            <select name="gill-attachment" id="gill-attachment" required="required">
+                <option value=0>a</option>
+                <option value=1>d</option>
+                <option value=2>f</option>
+                <option value=3>n</option>
+            </select>
+
+            <h5 class="card-title">Gill Spacing</h5>
+            <select name="gill-spacing" id="gill-spacing" required="required">
+                <option value=0>c</option>
+                <option value=1>d</option>
+                <option value=2>w</option>
+            </select>
+
+            <h5 class="card-title">Gill Size</h5>
+            <select name="gill-size" id="gill-size" required="required">
+                <option value=0>b</option>
+                <option value=1>n</option>
+            </select>
+
+            <h5 class="card-title">Gill Color</h5>
+            <select name="gill-color" id="gill-color" required="required">
+                <option value=0>b</option>
+                <option value=1>e</option>
+                <option value=2>g</option>
+                <option value=3>h</option>
+                <option value=4>k</option>
+                <option value=5>n</option>
+                <option value=6>o</option>
+                <option value=7>p</option>
+                <option value=8>r</option>
+                <option value=9>u</option>
+                <option value=10>w</option>
+                <option value=11>y</option>
+            </select>
+
+            <h5 class="card-title">Stalk Shape</h5>
+            <select name="stalk-shape" id="stalk-shape" required="required">
+                <option value=0>e</option>
+                <option value=1>t</option>
+            </select>
+
+            <h5 class="card-title">Stalk Root</h5>
+            <select name="stalk-root" id="stalk-root" required="required">
+                <option value=0>b</option>
+                <option value=1>c</option>
+                <option value=2>e</option>
+                <option value=3>r</option>
+                <option value=4>u</option>
+                <option value=5>z</option>
+            </select>
+
+            <h5 class="card-title">Stalk Surface Above Ring</h5>
+            <select name="stalk-surface-above-ring" id="stalk-surface-above-ring" required="required">
+                <option value=0>f</option>
+                <option value=1>k</option>
+                <option value=2>s</option>
+                <option value=3>y</option>
+            </select>
+
+            <h5 class="card-title">Stalk Surface Below Ring</h5>
+            <select name="stalk-surface-below-ring" id="stalk-surface-below-ring" required="required">
+                <option value=0>f</option>
+                <option value=1>k</option>
+                <option value=2>s</option>
+                <option value=3>y</option>
+            </select>
+
+            <h5 class="card-title">Stalk Color Above Ring</h5>
+            <select name="stalk-color-above-ring" id="stalk-color-above-ring" required="required">
+                <option value=0>b</option>
+                <option value=1>c</option>
+                <option value=2>e</option>
+                <option value=3>g</option>
+                <option value=4>ng</option>
+                <option value=5>o</option>
+                <option value=6>p</option>
+                <option value=7>w</option>
+                <option value=8>y</option>
+            </select>
+
+            <h5 class="card-title">Stalk Color Below Ring</h5>
+            <select name="stalk-color-below-ring" id="stalk-color-below-ring" required="required">
+                <option value=0>b</option>
+                <option value=1>c</option>
+                <option value=2>e</option>
+                <option value=3>g</option>
+                <option value=4>ng</option>
+                <option value=5>o</option>
+                <option value=6>p</option>
+                <option value=7>w</option>
+                <option value=8>y</option>
+            </select>
+
+            <h5 class="card-title">Veil Color</h5>
+            <select name="veil-color" id="veil-color" required="required">
+                <option value=0>n</option>
+                <option value=1>o</option>
+                <option value=2>w</option>
+                <option value=3>y</option>
+            </select>
+
+            <h5 class="card-title">Ring Number</h5>
+            <select name="ring-number" id="ring-number" required="required">
+                <option value=0>n</option>
+                <option value=1>o</option>
+                <option value=2>t</option>
+            </select>
+
+            <h5 class="card-title">Ring Type</h5>
+            <select name="ring-type" id="ring-type" required="required">
+                <option value=0>c</option>
+                <option value=1>e</option>
+                <option value=2>f</option>
+                <option value=3>l</option>
+                <option value=4>n</option>
+                <option value=5>p</option>
+                <option value=6>s</option>
+                <option value=7>z</option>
+            </select>
+
+            <h5 class="card-title">Spore Print Color</h5>
+            <select name="spore-print-color" id="spore-print-color" required="required">
+                <option value=0>b</option>
+                <option value=1>h</option>
+                <option value=2>k</option>
+                <option value=3>n</option>
+                <option value=4>o</option>
+                <option value=5>r</option>
+                <option value=6>u</option>
+                <option value=7>w</option>
+                <option value=8>y</option>
+            </select>
+
+            <h5 class="card-title">Population</h5>
+            <select name="population" id="population" required="required">
+                <option value=0>a</option>
+                <option value=1>c</option>
+                <option value=2>n</option>
+                <option value=3>s</option>
+                <option value=4>v</option>
+                <option value=5>y</option>
+            </select>
+
+            <h5 class="card-title">Habitat</h5>
+            <select name="habitat" id="habitat" required="required">
+                <option value=0>d</option>
+                <option value=1>g</option>
+                <option value=2>l</option>
+                <option value=3>m</option>
+                <option value=4>p</option>
+                <option value=4>u</option>
+                <option value=5>w</option>
+            </select>
+
+
+
+
+
+            <br><br>
+
+            <input type="submit" value="Submit" class="btn btn-secondary">
+
+
+        </form>
+
+        <h3>{{ prediction_text }}</h3>
+
+    </BODY>
+ </HTML>
