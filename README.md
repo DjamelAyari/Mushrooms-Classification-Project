@@ -11,6 +11,6 @@ App is the Flask application
 
 Home is the HTML code for the application
 
-I found help for this project via the Krish Naik content on his Youtube Channel and on his GitHub, Thanks to him.
+I found help for this project via the Krish Naik content on his Youtube Channel and on his GitHub.
 
-I also found help for this project via the blog "Machine Learning Mastery" of Jason Brownlee, Thanks to him.
+I also found help for this project via the blog "Machine Learning Mastery" of Jason Brownlee.
